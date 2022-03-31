@@ -77,7 +77,7 @@ Source: https://docs.oracle.com/en/java/javase/17/docs/specs/man/jpackage.html
 **example command:**
 
 ```ruby
-JPackage command: jpackage --input . --main-jar JavaFXHelloWorld.jar --main-class com.example.javafxhelloworld.App --module-path "C:\Program Files\Java\javafx-jmods-17.0.1" --add-modules javafx.controls,javafx.fxml
+jpackage --input . --main-jar JavaFXHelloWorld.jar --main-class com.example.javafxhelloworld.App --module-path "C:\Program Files\Java\javafx-jmods-17.0.1" --add-modules javafx.controls,javafx.fxml
 ```
 
 The following defaults are also applied: 
