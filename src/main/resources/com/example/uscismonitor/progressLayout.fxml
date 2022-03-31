@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uscismonitor.ProgressLayoutController">
+   <ProgressIndicator fx:id="prIn" layoutX="250.0" layoutY="126.0" minHeight="200.0" minWidth="200.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <cursor>
+         <Cursor fx:constant="WAIT" />
+      </cursor>
+      <effect>
+         <Blend />
+      </effect>
+   </ProgressIndicator>
+</AnchorPane>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="240.0" maxWidth="280.0" minHeight="200.0" minWidth="200.0" onMouseDragged="#onMouseDragged" onMousePressed="#onMousePressed" style="-fx-background-color: #FFF7D1; -fx-border-color: #808080; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uscismonitor.MainController">
+<opaqueInsets>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+</opaqueInsets>
+<padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+</padding>
+<Label layoutX="20.0" layoutY="10.0" opacity="0.73" text="I-751 Current Date:" textFill="#8617b2">
+    <font>
+        <Font name="Comic Sans MS Bold" size="19.0" />
+    </font>
+</Label>
+<Label fx:id="lblI751daysLeft" layoutX="30.0" layoutY="95.0" text="140 days left Until Reviewed" textFill="#bf2121">
+    <font>
+        <Font name="Comic Sans MS Bold Italic" size="16.0" />
+    </font>
+</Label>
+<Button fx:id="btnClose" layoutX="250.0" layoutY="5.0" mnemonicParsing="false" onAction="#onClose" rotate="-90.0" scaleX="0.75" scaleY="0.75" style="-fx-background-color: #ED1C24; -fx-background-radius: 70;" text="X" textFill="WHITE" />
+<Label layoutX="20.0" layoutY="131.0" opacity="0.73" text="N-400 Filing Countdown:" textFill="#8617b2">
+    <font>
+        <Font name="Comic Sans MS Bold" size="19.0" />
+    </font>
+</Label>
+<Label fx:id="lblN400date" layoutX="30.0" layoutY="164.0" text="N-400 Current Process Date" textFill="#bf2121">
+    <font>
+        <Font name="Comic Sans MS Bold Italic" size="16.0" />
+    </font>
+</Label>
+<Label fx:id="lblN400daysLeft" layoutX="30.0" layoutY="194.0" text="140 days left Until Filing" textFill="#bf2121">
+    <font>
+        <Font name="Comic Sans MS Bold Italic" size="16.0" />
+    </font>
+</Label>
+<Label fx:id="lblI751range" layoutX="30.0" layoutY="45.0" text="I-751 Current Process Range" textFill="#bf2121">
+    <font>
+        <Font name="Comic Sans MS Bold Italic" size="16.0" />
+    </font>
+</Label>
+<Label fx:id="lblI751date" layoutX="30.0" layoutY="70.0" text="I-751 Current Process Date" textFill="#bf2121">
+    <font>
+        <Font name="Comic Sans MS Bold Italic" size="16.0" />
+    </font>
+</Label>
+</Pane>
